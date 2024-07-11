@@ -139,7 +139,7 @@ class HoemPage extends StatelessWidget {
                       children: [
                         SpecialistCard(specialist: specialists[index]),
                         Positioned(
-                          bottom: -4,
+                          bottom: -size.height * 0.015,
                           left: size.width * 0.12,
                           child: Container(
                             padding: const EdgeInsets.symmetric(
@@ -162,7 +162,6 @@ class HoemPage extends StatelessWidget {
                       top: size.height * 0.095,
                       left: size.width * 0.05,
                       child: Container(
-                        height: size.height * 0.096,
                         width: size.width * 0.5,
                         padding: EdgeInsets.symmetric(
                           horizontal: size.width * 0.04,
